@@ -47,7 +47,7 @@ const findMissing = (arr1, arr2) => {
 ### **EDUCATION**
 * __Power Engineer__ (Belarusian National Technical University, Minsk, Belarus, 2008)
 * __Translator__ (State Educational Institution "Academy of Postgraduate Education", Minsk, Belarus, 2008)
-* __RS_school_stage0__ [https://rs.school/js-stage0](https://rs.school/js-stage0 "Rsschool-stage0") [Certificate](https://app.rs.school/certificate/qj5ff2z6 "Certificate") (2021-2022) 
+* __RS_school_stage0__ [https://rs.school/js-stage0](https://rs.school/js-stage0/ "Rsschool-stage0") [Certificate](https://app.rs.school/certificate/qj5ff2z6 "Certificate") (2021-2022) 
 
 ---
 
