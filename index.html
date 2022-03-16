@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/svg/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main-header class="main-header">
+    <header-nav class="header-nav">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">about me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">code example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+        </ul>
+      </nav>
+    </header-nav>
+    <header-profile class="header-profile">
+      <img src="./assets/img/myphoto.png" alt="my photo" class="header-profile-photo">
+      <div class="header-profile-content">
+        <h1 class="header-profile-title">aleksei solodukha</h1>
+        <h3 class="header-profile-subtitle">RS School student</h3>
+      </div>
+    </header-profile>
+  </main-header>
+  <main class="main">
+    <div class="container main-container">  
+      <section class="section" id="contacts">
+        <h2 class="section-title">contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">Phone:<span class="section-contacts-span">+375 33 657XXXX</span></li>
+          <li class="section-item">E-mail:<a href="mailto:alekseisoloduha@gmail.com" class="section-contacts-links" title="email">alekseisoloduha@gmail.com</a></li>
+          <li class="section-item">LinkedIn:<a href="https://www.linkedin.com/in/aleksei-solodukha" class="section-contacts-links" title="linkedin">aleksei-solodukha</a></li>
+          <li class="section-item">Discord(RS-School Discord Server):<a href="https://discord.gg/uvMkj6tR" class="section-contacts-links">Aleksei(@AlekseiSolodukha)</a>"</li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">about me</h2>
+        <p>Hardworking, goal-orientated, curious - all of this is about me.<br>My credo - there is nothing impossible to understand.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">skills</h2>
+        <ul class="section-list">
+          <li class="section-item">HTML Basics</li>
+          <li class="section-item">CSS Basics</li>
+          <li class="section-item">JavaScript Basics</li>
+          <li class="section-item">Git, GitHub</li>
+        </ul>
+      </section>
+      <section class="section" id="code-example">
+        <h2 class="section-title">code example</h2>
+        <pre class="section-code"><code>const findMissing = (arr1, arr2) => {
+  arr1 = arr1.sort();
+  arr2 = arr2.sort();
+  for(let i = 0; i < arr1.length; i++){
+    if(arr1[i] != arr2[i]) return arr1[i];
+  };
+}</code></pre>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">education</h2>
+        <ul class="section-list">
+          <li class="section-item">Power Engineer<span class="section-education-span">(Belarusian National Technical University, Minsk, Belarus, 2008)</span></li>
+          <li class="section-item">Translator <span class="section-education-span">(State Educational Institution "Academy of Postgraduate Education", Minsk, Belarus, 2008)</span></li>
+          <li class="section-item">RS school stage0<span class="section-education-span">(<a href="https://rs.school/js-stage0" title="RS school stage0">RS.school</a>, 2021-2022)</span></li>
+        </ul>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">experience</h2>
+          <div class="container">
+            <h3>Portfolio</h3>
+          </div>
+          <div class="container">
+            <h3>Image galary</h3>
+          </div>
+          <div class="container">
+            <h3>Tic-tac-toe</h3>
+          </div>
+        <a href="https://alekseisolodukha.github.io/rsschool-cv/">My first project (CV)</a>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">languages</h2>
+        <ul class="section-list">
+          <li class="section-item">English(B2 or higher)</li>
+          <li class="section-item">Russian(native speaker)</li>
+          <li class="section-item">Belarusian(native speaker)</li>
+          <li class="section-item">Polish(can read and understand)</li>
+          <li class="section-item">Ukrainian(can read and understand)</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="section-footer">
+      <p>© 2022 <a href="https://github.com/AlekseiSolodukha" class="footer-url">AlekseiSolodukha</a></p>
+    </div>
+    <a href="https://rs.school/js/" class="rss-logo"></a>
+  </footer>
+</body>
+</html>
